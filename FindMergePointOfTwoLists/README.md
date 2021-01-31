@@ -42,7 +42,8 @@ The solution:
 
 Naive one: Interate through the first list while checking each node of the second list if both of the nodes have the same address (`O(n^2)` solution):
 
-Great `O(n)` one: Create two iterator, each of the iterate through each list, if they reach the end of the lists then continue iterate them with the remain list, eventually the two iterator will have the same address, i.e. reaching the merge point
+Great `O(n)` one: Create two iterator, each of the iterate through each list, if they reach the end of the lists then continue iterate them with the remain list, eventually the two iterator will have the same address, i.e. reaching the merge point.
+
 A visualization:
 
 ```
