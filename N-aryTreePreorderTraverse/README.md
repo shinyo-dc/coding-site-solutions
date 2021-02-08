@@ -33,6 +33,7 @@ Output: [1,2,3,6,7,11,14,4,8,12,5,9,13,10]
 Constraints:
 
 The height of the n-ary tree is less than or equal to 1000
+
 The total number of nodes is between `[0, 10^4]`
 
 The solution
