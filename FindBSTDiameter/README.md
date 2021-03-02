@@ -12,3 +12,7 @@ The diameter of a BST is the maximum of the three values:
 1. Diameter of the left subtrees.
 2. Diameter of the right subtrees.
 3. The sum of the maximum height of the left and the right subtree + 1 (meaning the diameter of a tree with the path going through the root).
+
+The implementation can be found on the file `solution.cpp`
+
+
