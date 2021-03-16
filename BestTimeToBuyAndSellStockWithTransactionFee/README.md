@@ -28,8 +28,8 @@ Output: 6
 
 Constraints:
 ```
-1 < prices.length <= 5 * 104
-0 < prices[i], fee < 5 * 104
+1 < prices.length <= 5 * 10^4
+0 < prices[i], fee < 5 * 10^4
 ```
 
 The solution
