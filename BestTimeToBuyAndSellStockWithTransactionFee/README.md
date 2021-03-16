@@ -54,3 +54,5 @@ Case 2: I don't have any stock, maximizing these two values:
 2: I dont have any stock before, keep the day goes on: `dp[i][0] = dp[i-1][0]`
 
 The implementation can be found on `solution.cpp`
+
+Note: using int dp[][] instead of vector<vector<int>> to get accepted, I tried.
