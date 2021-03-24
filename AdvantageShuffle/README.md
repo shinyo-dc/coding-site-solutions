@@ -28,6 +28,6 @@ Note:
 The solution
 ===
 Based on https://dev.to/seanpgallivan/solution-advantage-shuffle-p39, explained by me xD:
-Select the largest possible value in `A` that is larger than `B[currIndex]` then remove it from `A`. This can be ultilized by sorting the `A` array beforehand then compare the last element in `A` with the largest number in `B`. To do so we can sort the `B`'s indices array by `B`'s value (descending order) and use that indices array to be a bridge between getting the largest value in `B` and putting the `A`'s value to the correct index.
+Select the largest possible value in `A` that is larger than `B[currIndex]` then remove it from `A`. This can be ultilized by sorting the `A` array beforehand then compare the last element in `A` with the largest number in `B`. To do so we can sort the `B`'s indices array by `B`'s value (descending order) and use that indices array to be a bridge between getting the largest value in `B` and putting the `A`'s value to the correct index. If we can't find the larger value of `A` then we just choose the least value of `A`.
 
 The implementation can be found at `solution.cpp`
